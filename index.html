@@ -45,6 +45,16 @@
         .content p {
             font-size: 18px; /* Increase font size for text */
         }
+        .content p a {
+            color: inherit; /* Ensures that link color is the same as the paragraph text */
+            font-family: inherit; /* Ensures the font family is the same as the paragraph text */
+            font-size: inherit; /* Ensures that font size is the same as the paragraph text */
+            text-decoration: none; /* No underline */
+        }
+
+        .content p a:hover {
+            text-decoration: underline; /* Underline on hover for better user experience */
+        }
         .project {
             margin: 20px;
             padding: 20px;
@@ -83,8 +93,8 @@
             <h2>HDB Resale Prices Analysis and Prediction</h2>
             <p>
                 This is my own project to analyze HDB resale prices in Singapore. In the notebook, I delve into factors that affect housing pricing such as location, flat type, number of lease years remaining, size of flat, and what storey the HDB resides in.
-                At the end of the analysis, I created a predictive model to predict housing pricing and deployed the model into huggingface spaces. 
-                <a href="https://huggingface.co/spaces/bhh97/HDB_Resale_Pred" target="_blank">Link to the space is here</a> and you can find the link to the project below.
+                At the end of the analysis, I created a predictive model to predict housing pricing and deployed the model into huggingface spaces. Link to the space is
+                <a href="https://huggingface.co/spaces/bhh97/HDB_Resale_Pred" target="_blank">here</a> and you can find the link to the project below.
             </p>
             <a href="https://github.com/Bhh97/HDB_Resale_EDA_Prediction/" target="_blank">View Project Here</a>
         </div>
