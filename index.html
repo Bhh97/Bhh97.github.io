@@ -106,7 +106,16 @@
     <div class="content">
         <h1>Bo Hao's Data Science Portfolio</h1>
         <p>This page is meant to serve as a portfolio for all my projects.</p>
-        
+        <div class="project">
+            <h2>Netflix Analysis and Recommendations</h2>
+            <p>
+                Using the Netflix Movies and TV Shows dataset found <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">here</a>, where the goal was to uncover insights into Netflix's content and trends over the years.
+                In the notebook, I cleaned the dataset by handling missing values and viisualization to gain insights into the distribution of Movie and TV shows, content added over the years, the kinds of contents being added and more. After the analysis is done, I build a recommendation system using
+                TF-IDF(Term Frequency-Inverse Document Frequency) to calculate the similarity between the movies and shows to recommend users shows/movies based on what they like. Finally, I deployed my model to huggingface spaces and build a simple interface for users to get recommendations. Link to the space is
+                <a href="https://huggingface.co/spaces/bhh97/Netflix_Recommendations" target="_blank">here</a> and you can find the link to the project below.
+            </p>
+            <a href="https://www.kaggle.com/code/bhh1997/netflix-eda-recommendations/notebook" target="_blank">View Project Here</a>
+        </div>
         <!-- Example Project -->
         <div class="project">
             <h2>HDB Resale Prices Analysis and Prediction</h2>
@@ -136,7 +145,7 @@
         <div class="project">
             <h2>Face Recognition Project</h2>
             <p>
-                For my final year project, I've worked on developing a facial recognition model using the InceptionResNetV1 architecture. Leveraging on datasets like Labelled Faces in the Wild (LFW) and Asian Faces Dataset (AFD), 
+                For this project, I've worked on developing a facial recognition model using the InceptionResNetV1 architecture. Leveraging on datasets like Labelled Faces in the Wild (LFW) and Asian Faces Dataset (AFD), 
                 the model is trained to identify and verify faces with precision. The key accomplishment of this project is its ability to recognize new faces it was not exposed to during training. 
                 The model is implemented with PyTorch.
             </p>
